@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		252A23D51B50819C0074A35F /* SideWall.png in Resources */ = {isa = PBXBuildFile; fileRef = 252A23D41B50819C0074A35F /* SideWall.png */; };
+		2594A38F1B4FE04F00BB3E1A /* Bronze.png in Resources */ = {isa = PBXBuildFile; fileRef = 2594A38C1B4FE04F00BB3E1A /* Bronze.png */; };
+		2594A3901B4FE04F00BB3E1A /* Gold.png in Resources */ = {isa = PBXBuildFile; fileRef = 2594A38D1B4FE04F00BB3E1A /* Gold.png */; };
+		2594A3911B4FE04F00BB3E1A /* Silver.png in Resources */ = {isa = PBXBuildFile; fileRef = 2594A38E1B4FE04F00BB3E1A /* Silver.png */; };
+		2594A3961B4FE24D00BB3E1A /* Enemy1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2594A3921B4FE24D00BB3E1A /* Enemy1.png */; };
+		2594A3971B4FE24D00BB3E1A /* Enemy2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2594A3931B4FE24D00BB3E1A /* Enemy2.png */; };
+		2594A3981B4FE24D00BB3E1A /* Player1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2594A3941B4FE24D00BB3E1A /* Player1.png */; };
+		2594A3991B4FE24D00BB3E1A /* Player2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2594A3951B4FE24D00BB3E1A /* Player2.png */; };
+		2594A3A01B4FE28600BB3E1A /* BGM.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2594A39A1B4FE28600BB3E1A /* BGM.mp3 */; };
+		2594A3A11B4FE28600BB3E1A /* Crash.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2594A39B1B4FE28600BB3E1A /* Crash.mp3 */; };
+		2594A3A21B4FE28600BB3E1A /* GainO2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2594A39C1B4FE28600BB3E1A /* GainO2.mp3 */; };
+		2594A3A31B4FE28600BB3E1A /* LostO2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2594A39D1B4FE28600BB3E1A /* LostO2.mp3 */; };
+		2594A3A41B4FE28600BB3E1A /* Start.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2594A39E1B4FE28600BB3E1A /* Start.mp3 */; };
+		2594A3A51B4FE28600BB3E1A /* Switch.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2594A39F1B4FE28600BB3E1A /* Switch.mp3 */; };
+		259533ED1AFD253300F67B1F /* GamePlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259533EC1AFD253300F67B1F /* GamePlay.swift */; };
+		259F708C1B3AABC1000A2E68 /* Like.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F707E1B3AABC1000A2E68 /* Like.png */; };
+		259F708D1B3AABC1000A2E68 /* Start.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F707F1B3AABC1000A2E68 /* Start.png */; };
+		259F708E1B3AABC1000A2E68 /* Info.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70801B3AABC1000A2E68 /* Info.png */; };
+		259F708F1B3AABC1000A2E68 /* New.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70811B3AABC1000A2E68 /* New.png */; };
+		259F70901B3AABC1000A2E68 /* Back.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70821B3AABC1000A2E68 /* Back.png */; };
+		259F70911B3AABC1000A2E68 /* SlashBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70831B3AABC1000A2E68 /* SlashBar.png */; };
+		259F70921B3AABC1000A2E68 /* Slash.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70841B3AABC1000A2E68 /* Slash.png */; };
+		259F70931B3AABC1000A2E68 /* Music.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70851B3AABC1000A2E68 /* Music.png */; };
+		259F70941B3AABC1000A2E68 /* Like.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70861B3AABC1000A2E68 /* Like.png */; };
+		259F70951B3AABC1000A2E68 /* Rate.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70871B3AABC1000A2E68 /* Rate.png */; };
+		259F70961B3AABC1000A2E68 /* Share.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70881B3AABC1000A2E68 /* Share.png */; };
+		259F70971B3AABC1000A2E68 /* GameCenter.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70891B3AABC1000A2E68 /* GameCenter.png */; };
+		259F70981B3AABC1000A2E68 /* Retry.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F708A1B3AABC1000A2E68 /* Retry.png */; };
+		259F70991B3AABC1000A2E68 /* Home.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F708B1B3AABC1000A2E68 /* Home.png */; };
+		259F70B21B3AABF8000A2E68 /* Menu.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70AB1B3AABF8000A2E68 /* Menu.png */; };
+		259F70B41B3AABF8000A2E68 /* Pool.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70AD1B3AABF8000A2E68 /* Pool.png */; };
+		259F70B51B3AABF8000A2E68 /* ShareImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70AE1B3AABF8000A2E68 /* ShareImage.png */; };
+		259F70B61B3AABF8000A2E68 /* InfoBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70AF1B3AABF8000A2E68 /* InfoBox.png */; };
+		259F70B71B3AABF8000A2E68 /* GameOverBox.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70B01B3AABF8000A2E68 /* GameOverBox.png */; };
+		259F70BE1B3AAC16000A2E68 /* O2.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70B91B3AAC16000A2E68 /* O2.png */; };
+		259F70C01B3AAC16000A2E68 /* WhiteHealthBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70BB1B3AAC16000A2E68 /* WhiteHealthBar.png */; };
+		259F70C11B3AAC16000A2E68 /* WhiteBlackO2.png in Resources */ = {isa = PBXBuildFile; fileRef = 259F70BC1B3AAC16000A2E68 /* WhiteBlackO2.png */; };
+		259F70C41B3AAC4E000A2E68 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259F70C31B3AAC4E000A2E68 /* AVFoundation.framework */; };
+		259F70C61B3AAC55000A2E68 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259F70C51B3AAC55000A2E68 /* SpriteKit.framework */; };
+		259F70C81B3AAC5B000A2E68 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259F70C71B3AAC5B000A2E68 /* UIKit.framework */; };
+		259F70CA1B3AAC65000A2E68 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 259F70C91B3AAC65000A2E68 /* CoreGraphics.framework */; };
+		259F70CE1B3AACA8000A2E68 /* InfoPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 259F70CD1B3AACA8000A2E68 /* InfoPage.swift */; };
+		25BF3D5B1B3AB28100B96D71 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 25BF3D5A1B3AB28100B96D71 /* GameKit.framework */; };
+		25E4510D1AF65EAD009E3C97 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25E4510C1AF65EAD009E3C97 /* GameOverScene.swift */; };
+		25F06C161AF4F4120002D795 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F06C151AF4F4120002D795 /* AppDelegate.swift */; };
+		25F06C181AF4F4120002D795 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 25F06C171AF4F4120002D795 /* GameScene.sks */; };
+		25F06C1A1AF4F4120002D795 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F06C191AF4F4120002D795 /* GameScene.swift */; };
+		25F06C1C1AF4F4120002D795 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F06C1B1AF4F4120002D795 /* GameViewController.swift */; };
+		25F06C1F1AF4F4120002D795 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 25F06C1D1AF4F4120002D795 /* Main.storyboard */; };
+		25F06C211AF4F4120002D795 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 25F06C201AF4F4120002D795 /* Images.xcassets */; };
+		25F06C241AF4F4120002D795 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 25F06C221AF4F4120002D795 /* LaunchScreen.xib */; };
+		25F06C301AF4F4120002D795 /* SwimmingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25F06C2F1AF4F4120002D795 /* SwimmingTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		25F06C2A1AF4F4120002D795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 25F06C081AF4F4120002D795 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 25F06C0F1AF4F4120002D795;
+			remoteInfo = Swimming;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		252A23D41B50819C0074A35F /* SideWall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SideWall.png; path = "../../../Speedy Swim/SideWall.png"; sourceTree = "<group>"; };
+		2594A38C1B4FE04F00BB3E1A /* Bronze.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Bronze.png; path = "../../../Speedy Swim/Medals/Bronze.png"; sourceTree = "<group>"; };
+		2594A38D1B4FE04F00BB3E1A /* Gold.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Gold.png; path = "../../../Speedy Swim/Medals/Gold.png"; sourceTree = "<group>"; };
+		2594A38E1B4FE04F00BB3E1A /* Silver.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Silver.png; path = "../../../Speedy Swim/Medals/Silver.png"; sourceTree = "<group>"; };
+		2594A3921B4FE24D00BB3E1A /* Enemy1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Enemy1.png; path = "../../../Speedy Swim/Players/Enemy1.png"; sourceTree = "<group>"; };
+		2594A3931B4FE24D00BB3E1A /* Enemy2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Enemy2.png; path = "../../../Speedy Swim/Players/Enemy2.png"; sourceTree = "<group>"; };
+		2594A3941B4FE24D00BB3E1A /* Player1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Player1.png; path = "../../../Speedy Swim/Players/Player1.png"; sourceTree = "<group>"; };
+		2594A3951B4FE24D00BB3E1A /* Player2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Player2.png; path = "../../../Speedy Swim/Players/Player2.png"; sourceTree = "<group>"; };
+		2594A39A1B4FE28600BB3E1A /* BGM.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = BGM.mp3; path = "../../../Speedy Swim/Sound/BGM.mp3"; sourceTree = "<group>"; };
+		2594A39B1B4FE28600BB3E1A /* Crash.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Crash.mp3; path = "../../../Speedy Swim/Sound/Crash.mp3"; sourceTree = "<group>"; };
+		2594A39C1B4FE28600BB3E1A /* GainO2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = GainO2.mp3; path = "../../../Speedy Swim/Sound/GainO2.mp3"; sourceTree = "<group>"; };
+		2594A39D1B4FE28600BB3E1A /* LostO2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = LostO2.mp3; path = "../../../Speedy Swim/Sound/LostO2.mp3"; sourceTree = "<group>"; };
+		2594A39E1B4FE28600BB3E1A /* Start.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Start.mp3; path = "../../../Speedy Swim/Sound/Start.mp3"; sourceTree = "<group>"; };
+		2594A39F1B4FE28600BB3E1A /* Switch.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = Switch.mp3; path = "../../../Speedy Swim/Sound/Switch.mp3"; sourceTree = "<group>"; };
+		259533EC1AFD253300F67B1F /* GamePlay.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GamePlay.swift; path = ../GamePlay.swift; sourceTree = "<group>"; };
+		259F707E1B3AABC1000A2E68 /* Like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Like.png; path = "../../../Speedy Swim/Buttons/Like.png"; sourceTree = "<group>"; };
+		259F707F1B3AABC1000A2E68 /* Start.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Start.png; path = "../../../Speedy Swim/Buttons/Start.png"; sourceTree = "<group>"; };
+		259F70801B3AABC1000A2E68 /* Info.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Info.png; path = "../../../Speedy Swim/Buttons/Info.png"; sourceTree = "<group>"; };
+		259F70811B3AABC1000A2E68 /* New.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = New.png; path = "../../../Speedy Swim/Buttons/New.png"; sourceTree = "<group>"; };
+		259F70821B3AABC1000A2E68 /* Back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Back.png; path = "../../../Speedy Swim/Buttons/Back.png"; sourceTree = "<group>"; };
+		259F70831B3AABC1000A2E68 /* SlashBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = SlashBar.png; path = "../../../Speedy Swim/Buttons/SlashBar.png"; sourceTree = "<group>"; };
+		259F70841B3AABC1000A2E68 /* Slash.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Slash.png; path = "../../../Speedy Swim/Buttons/Slash.png"; sourceTree = "<group>"; };
+		259F70851B3AABC1000A2E68 /* Music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Music.png; path = "../../../Speedy Swim/Buttons/Music.png"; sourceTree = "<group>"; };
+		259F70861B3AABC1000A2E68 /* Like.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Like.png; path = "../../../Speedy Swim/Buttons/Like.png"; sourceTree = "<group>"; };
+		259F70871B3AABC1000A2E68 /* Rate.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Rate.png; path = "../../../Speedy Swim/Buttons/Rate.png"; sourceTree = "<group>"; };
+		259F70881B3AABC1000A2E68 /* Share.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Share.png; path = "../../../Speedy Swim/Buttons/Share.png"; sourceTree = "<group>"; };
+		259F70891B3AABC1000A2E68 /* GameCenter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameCenter.png; path = "../../../Speedy Swim/Buttons/GameCenter.png"; sourceTree = "<group>"; };
+		259F708A1B3AABC1000A2E68 /* Retry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Retry.png; path = "../../../Speedy Swim/Buttons/Retry.png"; sourceTree = "<group>"; };
+		259F708B1B3AABC1000A2E68 /* Home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Home.png; path = "../../../Speedy Swim/Buttons/Home.png"; sourceTree = "<group>"; };
+		259F70AB1B3AABF8000A2E68 /* Menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Menu.png; path = "../../../Speedy Swim/Menu.png"; sourceTree = "<group>"; };
+		259F70AD1B3AABF8000A2E68 /* Pool.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Pool.png; path = "../../../Speedy Swim/Pool.png"; sourceTree = "<group>"; };
+		259F70AE1B3AABF8000A2E68 /* ShareImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ShareImage.png; path = "../../../Speedy Swim/Marketing/ShareImage.png"; sourceTree = "<group>"; };
+		259F70AF1B3AABF8000A2E68 /* InfoBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = InfoBox.png; path = "../../../Speedy Swim/InfoBox.png"; sourceTree = "<group>"; };
+		259F70B01B3AABF8000A2E68 /* GameOverBox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = GameOverBox.png; path = "../../../Speedy Swim/GameOverBox.png"; sourceTree = "<group>"; };
+		259F70B91B3AAC16000A2E68 /* O2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = O2.png; path = "../../../Speedy Swim/Health/O2.png"; sourceTree = "<group>"; };
+		259F70BB1B3AAC16000A2E68 /* WhiteHealthBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WhiteHealthBar.png; path = "../../../Speedy Swim/Health/WhiteHealthBar.png"; sourceTree = "<group>"; };
+		259F70BC1B3AAC16000A2E68 /* WhiteBlackO2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WhiteBlackO2.png; path = "../../../Speedy Swim/Health/WhiteBlackO2.png"; sourceTree = "<group>"; };
+		259F70C31B3AAC4E000A2E68 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		259F70C51B3AAC55000A2E68 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		259F70C71B3AAC5B000A2E68 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		259F70C91B3AAC65000A2E68 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		259F70CD1B3AACA8000A2E68 /* InfoPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoPage.swift; sourceTree = "<group>"; };
+		25BF3D5A1B3AB28100B96D71 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		25E4510C1AF65EAD009E3C97 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		25F06C101AF4F4120002D795 /* Speedy Swim.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Speedy Swim.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F06C141AF4F4120002D795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F06C151AF4F4120002D795 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		25F06C171AF4F4120002D795 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		25F06C191AF4F4120002D795 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		25F06C1B1AF4F4120002D795 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		25F06C1E1AF4F4120002D795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		25F06C201AF4F4120002D795 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		25F06C231AF4F4120002D795 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		25F06C291AF4F4120002D795 /* Speedy SwimTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Speedy SwimTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		25F06C2E1AF4F4120002D795 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		25F06C2F1AF4F4120002D795 /* SwimmingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwimmingTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		25F06C0D1AF4F4120002D795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259F70CA1B3AAC65000A2E68 /* CoreGraphics.framework in Frameworks */,
+				259F70C81B3AAC5B000A2E68 /* UIKit.framework in Frameworks */,
+				259F70C61B3AAC55000A2E68 /* SpriteKit.framework in Frameworks */,
+				259F70C41B3AAC4E000A2E68 /* AVFoundation.framework in Frameworks */,
+				25BF3D5B1B3AB28100B96D71 /* GameKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F06C261AF4F4120002D795 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		259F70701B3AAB6E000A2E68 /* Music */ = {
+			isa = PBXGroup;
+			children = (
+				2594A39A1B4FE28600BB3E1A /* BGM.mp3 */,
+				2594A39B1B4FE28600BB3E1A /* Crash.mp3 */,
+				2594A39C1B4FE28600BB3E1A /* GainO2.mp3 */,
+				2594A39D1B4FE28600BB3E1A /* LostO2.mp3 */,
+				2594A39E1B4FE28600BB3E1A /* Start.mp3 */,
+				2594A39F1B4FE28600BB3E1A /* Switch.mp3 */,
+			);
+			name = Music;
+			sourceTree = "<group>";
+		};
+		259F707D1B3AABB6000A2E68 /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				259F707E1B3AABC1000A2E68 /* Like.png */,
+				259F707F1B3AABC1000A2E68 /* Start.png */,
+				259F70801B3AABC1000A2E68 /* Info.png */,
+				259F70811B3AABC1000A2E68 /* New.png */,
+				259F70821B3AABC1000A2E68 /* Back.png */,
+				259F70831B3AABC1000A2E68 /* SlashBar.png */,
+				259F70841B3AABC1000A2E68 /* Slash.png */,
+				259F70851B3AABC1000A2E68 /* Music.png */,
+				259F70861B3AABC1000A2E68 /* Like.png */,
+				259F70871B3AABC1000A2E68 /* Rate.png */,
+				259F70881B3AABC1000A2E68 /* Share.png */,
+				259F70891B3AABC1000A2E68 /* GameCenter.png */,
+				259F708A1B3AABC1000A2E68 /* Retry.png */,
+				259F708B1B3AABC1000A2E68 /* Home.png */,
+			);
+			name = Buttons;
+			sourceTree = "<group>";
+		};
+		259F709A1B3AABC8000A2E68 /* Players */ = {
+			isa = PBXGroup;
+			children = (
+				2594A3921B4FE24D00BB3E1A /* Enemy1.png */,
+				2594A3931B4FE24D00BB3E1A /* Enemy2.png */,
+				2594A3941B4FE24D00BB3E1A /* Player1.png */,
+				2594A3951B4FE24D00BB3E1A /* Player2.png */,
+			);
+			name = Players;
+			sourceTree = "<group>";
+		};
+		259F70A31B3AABDE000A2E68 /* Medals */ = {
+			isa = PBXGroup;
+			children = (
+				2594A38C1B4FE04F00BB3E1A /* Bronze.png */,
+				2594A38D1B4FE04F00BB3E1A /* Gold.png */,
+				2594A38E1B4FE04F00BB3E1A /* Silver.png */,
+			);
+			name = Medals;
+			sourceTree = "<group>";
+		};
+		259F70AA1B3AABEE000A2E68 /* Health */ = {
+			isa = PBXGroup;
+			children = (
+				259F70B91B3AAC16000A2E68 /* O2.png */,
+				259F70BB1B3AAC16000A2E68 /* WhiteHealthBar.png */,
+				259F70BC1B3AAC16000A2E68 /* WhiteBlackO2.png */,
+			);
+			name = Health;
+			sourceTree = "<group>";
+		};
+		25F06C071AF4F4120002D795 = {
+			isa = PBXGroup;
+			children = (
+				25BF3D5A1B3AB28100B96D71 /* GameKit.framework */,
+				259F70C91B3AAC65000A2E68 /* CoreGraphics.framework */,
+				259F70C71B3AAC5B000A2E68 /* UIKit.framework */,
+				259F70C51B3AAC55000A2E68 /* SpriteKit.framework */,
+				259F70C31B3AAC4E000A2E68 /* AVFoundation.framework */,
+				25F06C121AF4F4120002D795 /* Swimming */,
+				25F06C2C1AF4F4120002D795 /* SwimmingTests */,
+				25F06C111AF4F4120002D795 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		25F06C111AF4F4120002D795 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				25F06C101AF4F4120002D795 /* Speedy Swim.app */,
+				25F06C291AF4F4120002D795 /* Speedy SwimTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		25F06C121AF4F4120002D795 /* Swimming */ = {
+			isa = PBXGroup;
+			children = (
+				25F06C191AF4F4120002D795 /* GameScene.swift */,
+				259533EC1AFD253300F67B1F /* GamePlay.swift */,
+				25E4510C1AF65EAD009E3C97 /* GameOverScene.swift */,
+				259F70CD1B3AACA8000A2E68 /* InfoPage.swift */,
+				25F06C1D1AF4F4120002D795 /* Main.storyboard */,
+				25F06C221AF4F4120002D795 /* LaunchScreen.xib */,
+				25F06C151AF4F4120002D795 /* AppDelegate.swift */,
+				25F06C1B1AF4F4120002D795 /* GameViewController.swift */,
+				25F06C171AF4F4120002D795 /* GameScene.sks */,
+				25F06C201AF4F4120002D795 /* Images.xcassets */,
+				25F06C131AF4F4120002D795 /* Supporting Files */,
+			);
+			path = Swimming;
+			sourceTree = "<group>";
+		};
+		25F06C131AF4F4120002D795 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				259F70AA1B3AABEE000A2E68 /* Health */,
+				259F70A31B3AABDE000A2E68 /* Medals */,
+				259F709A1B3AABC8000A2E68 /* Players */,
+				259F707D1B3AABB6000A2E68 /* Buttons */,
+				259F70701B3AAB6E000A2E68 /* Music */,
+				259F70AB1B3AABF8000A2E68 /* Menu.png */,
+				259F70AD1B3AABF8000A2E68 /* Pool.png */,
+				252A23D41B50819C0074A35F /* SideWall.png */,
+				259F70AE1B3AABF8000A2E68 /* ShareImage.png */,
+				259F70AF1B3AABF8000A2E68 /* InfoBox.png */,
+				259F70B01B3AABF8000A2E68 /* GameOverBox.png */,
+				25F06C141AF4F4120002D795 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		25F06C2C1AF4F4120002D795 /* SwimmingTests */ = {
+			isa = PBXGroup;
+			children = (
+				25F06C2F1AF4F4120002D795 /* SwimmingTests.swift */,
+				25F06C2D1AF4F4120002D795 /* Supporting Files */,
+			);
+			path = SwimmingTests;
+			sourceTree = "<group>";
+		};
+		25F06C2D1AF4F4120002D795 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				25F06C2E1AF4F4120002D795 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		25F06C0F1AF4F4120002D795 /* Speedy Swim */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F06C331AF4F4120002D795 /* Build configuration list for PBXNativeTarget "Speedy Swim" */;
+			buildPhases = (
+				25F06C0C1AF4F4120002D795 /* Sources */,
+				25F06C0D1AF4F4120002D795 /* Frameworks */,
+				25F06C0E1AF4F4120002D795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Speedy Swim";
+			productName = Swimming;
+			productReference = 25F06C101AF4F4120002D795 /* Speedy Swim.app */;
+			productType = "com.apple.product-type.application";
+		};
+		25F06C281AF4F4120002D795 /* Speedy SwimTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 25F06C361AF4F4120002D795 /* Build configuration list for PBXNativeTarget "Speedy SwimTests" */;
+			buildPhases = (
+				25F06C251AF4F4120002D795 /* Sources */,
+				25F06C261AF4F4120002D795 /* Frameworks */,
+				25F06C271AF4F4120002D795 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				25F06C2B1AF4F4120002D795 /* PBXTargetDependency */,
+			);
+			name = "Speedy SwimTests";
+			productName = SwimmingTests;
+			productReference = 25F06C291AF4F4120002D795 /* Speedy SwimTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		25F06C081AF4F4120002D795 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Julian Joonyon Park";
+				TargetAttributes = {
+					25F06C0F1AF4F4120002D795 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = DHA4RR9D2K;
+						SystemCapabilities = {
+							com.apple.GameCenter = {
+								enabled = 1;
+							};
+						};
+					};
+					25F06C281AF4F4120002D795 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 25F06C0F1AF4F4120002D795;
+					};
+				};
+			};
+			buildConfigurationList = 25F06C0B1AF4F4120002D795 /* Build configuration list for PBXProject "Speedy Swim" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 25F06C071AF4F4120002D795;
+			productRefGroup = 25F06C111AF4F4120002D795 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				25F06C0F1AF4F4120002D795 /* Speedy Swim */,
+				25F06C281AF4F4120002D795 /* Speedy SwimTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		25F06C0E1AF4F4120002D795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				259F70BE1B3AAC16000A2E68 /* O2.png in Resources */,
+				2594A3A41B4FE28600BB3E1A /* Start.mp3 in Resources */,
+				259F708C1B3AABC1000A2E68 /* Like.png in Resources */,
+				259F70B61B3AABF8000A2E68 /* InfoBox.png in Resources */,
+				259F70971B3AABC1000A2E68 /* GameCenter.png in Resources */,
+				259F708D1B3AABC1000A2E68 /* Start.png in Resources */,
+				2594A38F1B4FE04F00BB3E1A /* Bronze.png in Resources */,
+				259F70921B3AABC1000A2E68 /* Slash.png in Resources */,
+				259F70C01B3AAC16000A2E68 /* WhiteHealthBar.png in Resources */,
+				259F70B71B3AABF8000A2E68 /* GameOverBox.png in Resources */,
+				25F06C241AF4F4120002D795 /* LaunchScreen.xib in Resources */,
+				259F70B51B3AABF8000A2E68 /* ShareImage.png in Resources */,
+				252A23D51B50819C0074A35F /* SideWall.png in Resources */,
+				25F06C211AF4F4120002D795 /* Images.xcassets in Resources */,
+				259F708E1B3AABC1000A2E68 /* Info.png in Resources */,
+				259F70951B3AABC1000A2E68 /* Rate.png in Resources */,
+				25F06C181AF4F4120002D795 /* GameScene.sks in Resources */,
+				2594A3A21B4FE28600BB3E1A /* GainO2.mp3 in Resources */,
+				2594A3901B4FE04F00BB3E1A /* Gold.png in Resources */,
+				259F70931B3AABC1000A2E68 /* Music.png in Resources */,
+				2594A3A11B4FE28600BB3E1A /* Crash.mp3 in Resources */,
+				259F70B21B3AABF8000A2E68 /* Menu.png in Resources */,
+				259F70B41B3AABF8000A2E68 /* Pool.png in Resources */,
+				259F70991B3AABC1000A2E68 /* Home.png in Resources */,
+				2594A3A51B4FE28600BB3E1A /* Switch.mp3 in Resources */,
+				259F70941B3AABC1000A2E68 /* Like.png in Resources */,
+				259F708F1B3AABC1000A2E68 /* New.png in Resources */,
+				259F70C11B3AAC16000A2E68 /* WhiteBlackO2.png in Resources */,
+				25F06C1F1AF4F4120002D795 /* Main.storyboard in Resources */,
+				2594A3971B4FE24D00BB3E1A /* Enemy2.png in Resources */,
+				2594A3A01B4FE28600BB3E1A /* BGM.mp3 in Resources */,
+				259F70901B3AABC1000A2E68 /* Back.png in Resources */,
+				2594A3981B4FE24D00BB3E1A /* Player1.png in Resources */,
+				2594A3911B4FE04F00BB3E1A /* Silver.png in Resources */,
+				2594A3961B4FE24D00BB3E1A /* Enemy1.png in Resources */,
+				259F70911B3AABC1000A2E68 /* SlashBar.png in Resources */,
+				2594A3A31B4FE28600BB3E1A /* LostO2.mp3 in Resources */,
+				2594A3991B4FE24D00BB3E1A /* Player2.png in Resources */,
+				259F70981B3AABC1000A2E68 /* Retry.png in Resources */,
+				259F70961B3AABC1000A2E68 /* Share.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F06C271AF4F4120002D795 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25F06C0C1AF4F4120002D795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F06C1A1AF4F4120002D795 /* GameScene.swift in Sources */,
+				25F06C1C1AF4F4120002D795 /* GameViewController.swift in Sources */,
+				259F70CE1B3AACA8000A2E68 /* InfoPage.swift in Sources */,
+				25E4510D1AF65EAD009E3C97 /* GameOverScene.swift in Sources */,
+				25F06C161AF4F4120002D795 /* AppDelegate.swift in Sources */,
+				259533ED1AFD253300F67B1F /* GamePlay.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		25F06C251AF4F4120002D795 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				25F06C301AF4F4120002D795 /* SwimmingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		25F06C2B1AF4F4120002D795 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 25F06C0F1AF4F4120002D795 /* Speedy Swim */;
+			targetProxy = 25F06C2A1AF4F4120002D795 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		25F06C1D1AF4F4120002D795 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F06C1E1AF4F4120002D795 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		25F06C221AF4F4120002D795 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				25F06C231AF4F4120002D795 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		25F06C311AF4F4120002D795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25F06C321AF4F4120002D795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		25F06C341AF4F4120002D795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Swimming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Speedy Swim";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		25F06C351AF4F4120002D795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = Swimming/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "Speedy Swim";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		25F06C371AF4F4120002D795 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwimmingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "Speedy SwimTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swimming.app/Swimming";
+			};
+			name = Debug;
+		};
+		25F06C381AF4F4120002D795 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SwimmingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "Speedy SwimTests";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Swimming.app/Swimming";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		25F06C0B1AF4F4120002D795 /* Build configuration list for PBXProject "Speedy Swim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F06C311AF4F4120002D795 /* Debug */,
+				25F06C321AF4F4120002D795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F06C331AF4F4120002D795 /* Build configuration list for PBXNativeTarget "Speedy Swim" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F06C341AF4F4120002D795 /* Debug */,
+				25F06C351AF4F4120002D795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		25F06C361AF4F4120002D795 /* Build configuration list for PBXNativeTarget "Speedy SwimTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25F06C371AF4F4120002D795 /* Debug */,
+				25F06C381AF4F4120002D795 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 25F06C081AF4F4120002D795 /* Project object */;
+}
